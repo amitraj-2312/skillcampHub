@@ -17,7 +17,7 @@ app.use(express.json({ limit: "10mb" }))
 app.use(express.urlencoded({ limit: "10mb", extended: true }))
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://skillcamp-hub-gnjo.vercel.app/",
+    origin:"https://skillcamphub-2.onrender.com",
     credentials:true
 }))
 
