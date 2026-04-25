@@ -25,7 +25,7 @@ import MyEnrolledCourses from './pages/MyEnrolledCourses'
 import getAllReviews from './customHooks/getAllReviews'
 import SearchWithAi from './pages/searchWithAi'
 
-export const serverUrl = "https://skillcamp-hub-8nuw.vercel.app/"
+export const serverUrl = "https://skillcamphub.onrender.com"
 
 function App() {
   getCurrentUser()
